@@ -1,0 +1,43 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+nome_venv/
+venv/
+env/
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+db.sqlite3
+/staticfiles/
+media/
+
+# VSCode, PyCharm etc:
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Coverage reports
+htmlcov/
+.coverage
+coverage.xml
+
+# Pytest cache
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+
+# env vars
+.env
+
+# Ignorar a chave SSH privada e pública dentro do projeto
+id_rsa
+id_rsa.pub
